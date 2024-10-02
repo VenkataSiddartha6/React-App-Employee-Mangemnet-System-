@@ -1,0 +1,67 @@
+.dashboard-container {
+  display: flex;
+}
+
+.sidebar {
+  width: 250px; 
+  height: 200vh; 
+  background-color: #10021a54; 
+  color: rgb(74, 4, 92); 
+  padding: 20px; 
+  position: absolute; 
+  top: 85px;
+  left: 0; 
+}
+
+
+
+.sidebar ul {
+  list-style-type: none; 
+  padding: 0; 
+}
+
+.sidebar ul li {
+  margin: 15px 0; 
+  cursor: pointer; 
+  
+}
+
+.sidebar ul li:hover {
+  text-decoration: underline;
+  
+}
+
+.main-content {
+  margin-left: 260px; 
+  padding: 20px;
+  flex-grow: 1; 
+}
+
+.employee-table {
+  width: 100%; 
+  border-collapse: collapse; 
+  margin-top: 20px; 
+}
+
+.employee-table th, .employee-table td {
+  border: 1px solid #ddd; 
+  padding: 8px; 
+  text-align: left; 
+}
+
+.employee-table th {
+  background-color: #4CAF50; 
+  color: white; 
+}
+
+.employee-table tr:hover {
+  background-color: #f1f1f1; 
+}
+
+.topRight {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 18px;
+
+} 
